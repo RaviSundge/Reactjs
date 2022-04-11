@@ -1,0 +1,78 @@
+node_modules= This folder contains packages installed by npm .
+-npm install
+
+public- this folder contains the static resources and index.html file which is the only html file of our SPA.
+-this folder should not be deleted coz you cannot recreate it by using any command.
+
+favicon.ico- this icon is used for fav icon for the web app.
+
+index.html-  this is the only web page req. for our SPA
+-this is req file.
+
+manifest.json -- this files provides configuration details req in the producton.
+
+robots.txt-- this file control whether a search engine crawler should read the web page content or not.
+
+src -- the src folder is used to write all the source files.
+-the index.js is the entry file of the production .
+-src folder should not be deleted.
+-take the backup of this folder.
+
+App.css-- this is the styling file used by app component.
+ 
+App.js --- this file is ued to write root component of the web app.
+
+App.txt.js --- the file contains the sample text cases for app component.
+
+index.css --- used to write global style
+
+index.js --- this is entry file for webpack.
+-the react app is configured here.
+-req file
+
+reportWebVitals- this is used to measure the performance of the application.
+
+setupTests.js -- this file is used to configure the testing.
+
+.gitignore-- this file is used by the 'git' 
+-if dont want to satge(backup) the mention files and folders in this file.
+
+
+package-lock.json-- this files contains details of all the packages installed in the node_modules folder and their dependancies.
+
+package.json -- this is project configuration file which contains details of the project like name,version,author,dependancies,scripts etc.
+-this is imp file should not be deleted.
+
+
+README.md-- this file contains the details of the project..
+
+
+
+         ============================ List Rendering========================
+map and filter method returns new array;
+filter is used to extract the value and return new array;
+
+
+======hooks========================
+Hooks are the functions;
+====usestate()=====
+to maintain a state in the function component there are two hooks;
+1)useState()
+2)useReducer()
+useState() hook returns an array of state and dispatch function;
+const[state,dispatch]=useState()
+state update asynchronusly;
+
+
+
+state=>the value which will be maintained during Rendering;
+dispatch=>it is a function used to change/update state by passing value directly or passing a callback;
+
+
+========useEffect()=========
+useEffect(callback,dependancies list)
+
+
+======PureComponent=============
+the component which re-renders only if their is difference in old and new state or props values.
+when ever parent re render child as re-render

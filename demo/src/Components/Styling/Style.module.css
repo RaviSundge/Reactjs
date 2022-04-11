@@ -1,0 +1,12 @@
+.header{
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+.format{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+}

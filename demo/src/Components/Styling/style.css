@@ -1,0 +1,14 @@
+.box{
+    background-color: yellow;
+    color: rgb(12, 0, 0);
+    text-align: center;
+    border: 2px solid black;
+    width: 200;
+    height: 200;
+}
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
